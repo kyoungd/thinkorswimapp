@@ -15,7 +15,7 @@ const TeamMembers = () => {
             {/* Team Area Start */}
             <section id="team-area" className="py100">
                 <div className="container">
-                    <SectionHeading title="Our Team" heading="Meet Our Team" />
+                    <SectionHeading title="Our Team" heading="Meet Our Expert Team" />
                     <div className="row">
                         {TeamData.map((data, index) => (<TeamCard data={data} key={index} />))}
                     </div>
