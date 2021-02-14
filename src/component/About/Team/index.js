@@ -3,7 +3,7 @@ import React from 'react'
 import SectionHeading from '../../Home/SectionHeading/SectionHeading'
 
 // Import TeamData
-import {TeamData} from '../Team/TeamData'
+import { TeamData } from '../Team/TeamData'
 
 // Import TeamCard
 import TeamCard from '../Team/TeamCard'
@@ -15,9 +15,9 @@ const TeamMembers = () => {
             {/* Team Area Start */}
             <section id="team-area" className="py100">
                 <div className="container">
-                    <SectionHeading title="Our Team" heading="Meet Our Expert Team"/>
+                    <SectionHeading title="Our Team" heading="Meet Our Team" />
                     <div className="row">
-                        {TeamData.map((data, index) => (<TeamCard data={data} key={index}/>))}
+                        {TeamData.map((data, index) => (<TeamCard data={data} key={index} />))}
                     </div>
                 </div>
             </section>
