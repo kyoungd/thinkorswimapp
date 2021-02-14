@@ -2,6 +2,10 @@
   "name": "ecom-live-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "yarn": "1.22.4",
+    "node": "13.14.0"
+  },
   "dependencies": {
     "@react-google-maps/api": "^1.13.0",
     "@testing-library/jest-dom": "^4.2.4",
