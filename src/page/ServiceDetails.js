@@ -7,10 +7,10 @@ import ServiceGraph from '../component/ServiceDetails/ServiceGraph'
 const ServiceDetails = () => {
     return (
         <>
-            <CommonBanner heading="Service Details" menu1="Home" menu2="Service Details"/>
-            <SingleServiceDetails/>
-            <RelatedServices/>
-            <ServiceGraph/>
+            <CommonBanner heading="Service Details" menu1="Home" menu2="Service Details" />
+            <SingleServiceDetails />
+            <RelatedServices />
+            <ServiceGraph />
         </>
     )
 }

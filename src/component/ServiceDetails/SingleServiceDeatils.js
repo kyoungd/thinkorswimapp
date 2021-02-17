@@ -15,15 +15,18 @@ const SingleServiceDeatils = () => {
                         <div className="col-lg-6">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
-                                    <h2 className="pt10">Delivering the insights you to help business growth</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae adipisci
-                                        laudantium
-                                        corporis, officiis ut dolore fuga doloremque, aperiam excepturi quisquam optio
-                                        distinctio. Iure sequi illum rem. Libero perferendis quae dignissimos?</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae adipisci
-                                        laudantium
-                                        corporis, officiis ut dolore fuga doloremque, aperiam excepturi quisquam optio
-                                        distinctio. Iure sequi illum rem. Libero perferendis quae dignissimos?</p>
+                                    <h2 className="pt10">Proven scanners to find stocks before they move</h2>
+                                    <p>Momentum scanners - </p>
+                                    <p>Low Float Stock Scanner - </p>
+                                    <p>Halt Indicator - </p>
+                                    <p>Earnings - </p>
+                                    <p>Moving Averages/Crossovers - </p>
+                                    <p>Relative Volume - </p>
+                                    <p>Opening Range Breakout (ORB) - </p>
+                                    <p>Reversals - </p>
+                                    <p>RSI - </p>
+                                    <p>VWAP Multi Time Frame Indicator - </p>
+                                    <p>Unusual Volume Scanner - </p>
                                 </div>
                             </div>
                         </div>

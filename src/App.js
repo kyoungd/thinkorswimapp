@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, BrowserRouter } from 'react-router-dom';
 
 // All Page Component
 import Home from '../src/page/Home'
@@ -37,30 +37,30 @@ const App = () => {
             <BrowserRouter>
                 <Router>
                     <ScrollToTop>
-                        <Header/>
+                        <Header />
                         <Switch>
-                            <Route path='/' exact component={Home}/>
-                            <Route path='/services' exact component={Services}/>
-                            <Route path='/service_details' exact component={ServiceDetails}/>
-                            <Route path='/about' exact component={About}/>
-                            <Route path='/projects' exact component={Projects}/>
-                            <Route path='/project_details' exact component={ProjectDetails}/>
-                            <Route path='/blog' exact component={Blog}/>
-                            <Route path='/blog_details' exact component={BlogDetails}/>
-                            <Route path='/shop' exact component={Shop}/>
-                            <Route path='/product_details' exact component={ProductDetails}/>
-                            <Route path='/cart' exact component={Cart}/>
-                            <Route path='/checkout' exact component={CheckOut}/>
-                            <Route path='/login' exact component={Login}/>
-                            <Route path='/register' exact component={Register}/>
-                            <Route path='/reset_password' exact component={ResetPassword}/>
-                            <Route path='/contact' exact component={Contact}/>
-                            <Route path='/faqs' exact component={Faqs}/>
-                            <Route exact component={Error}/>
+                            <Route path='/' exact component={Home} />
+                            <Route path='/services' exact component={Services} />
+                            <Route path='/service_details' exact component={ServiceDetails} />
+                            <Route path='/about' exact component={About} />
+                            <Route path='/projects' exact component={Projects} />
+                            <Route path='/project_details' exact component={ProjectDetails} />
+                            <Route path='/blog' exact component={Blog} />
+                            <Route path='/blog_details' exact component={BlogDetails} />
+                            <Route path='/shop' exact component={Shop} />
+                            <Route path='/product_details' exact component={ProductDetails} />
+                            <Route path='/cart' exact component={Cart} />
+                            <Route path='/checkout' exact component={CheckOut} />
+                            <Route path='/login' exact component={Login} />
+                            <Route path='/register' exact component={Register} />
+                            <Route path='/reset_password' exact component={ResetPassword} />
+                            <Route path='/contact' exact component={Contact} />
+                            <Route path='/faqs' exact component={Faqs} />
+                            <Route exact component={Error} />
                         </Switch>
-                        <Cta/>
-                        <Footer/>
-                        <CopyRight/>
+                        <Cta />
+                        <Footer />
+                        <CopyRight />
                     </ScrollToTop>
                 </Router>
             </BrowserRouter>

@@ -14,16 +14,14 @@ import WorkingProcess from '../component/Home/OurWorkingProcess/WorkingProcess'
 const Home = () => {
     return (
         <>
-            <Banner/>
-            <Partner/>
-            <OurServices/>
-            <AboutOne/>
-            <AboutTwo/>
-            <WorkingProcess/>
-            <Project/>
-            <Pricing/>
-            <Testimonials/>
-            <Blog/>
+            <Banner />
+            <Partner />
+            <OurServices />
+            <AboutOne />
+            <AboutTwo />
+            <WorkingProcess />
+            <Testimonials />
+            <Blog />
         </>
     )
 }

@@ -5,57 +5,50 @@ export const MenuData = [
         has_children: false,
     },
     {
-        name: "Services",
+        name: "Products",
         href: "#!",
         has_children: true,
         children: [
             {
-                name: "Services",
+                name: "Products",
                 href: "/services",
                 has_children: false,
             },
             {
-                name: "Service Details",
+                name: "Product Details",
                 href: "/service_details",
                 has_children: false,
             }
         ]
     },
     {
-        name: "About Us",
-        href: "/about",
-        has_children: false,
-    },
-    {
-        name: "Projects",
+        name: "Account",
         href: "#!",
         has_children: true,
         children: [
             {
-                name: "Projects",
-                href: "/projects",
+                name: "Login",
+                href: "/login",
                 has_children: false,
             },
             {
-                name: "Project Details",
-                href: "/project_details",
-                has_children: false,
-            }
-        ]
-    },
-    {
-        name: "Blog",
-        href: "#!",
-        has_children: true,
-        children: [
-            {
-                name: " Blog",
-                href: "/blog",
+                name: "Cart",
+                href: "/cart",
                 has_children: false,
             },
             {
-                name: "Blog Details",
-                href: "/blog_details",
+                name: "Contact Us",
+                href: "/contact",
+                has_children: false,
+            },
+            {
+                name: "FAQ",
+                href: "/faqs",
+                has_children: false,
+            },
+            {
+                name: "404 Error",
+                href: "/error",
                 has_children: false,
             }
         ]
@@ -76,35 +69,10 @@ export const MenuData = [
                 has_children: false,
             },
             {
-                name: "Cart",
-                href: "/cart",
-                has_children: false,
-            },
-            {
                 name: "Checkout",
                 href: "/checkout",
                 has_children: false,
             },
-            {
-                name: "Login",
-                href: "/login",
-                has_children: false,
-            },
-            {
-                name: "Contact Us",
-                href: "/contact",
-                has_children: false,
-            },
-            {
-                name: "FAQ",
-                href: "/faqs",
-                has_children: false,
-            },
-            {
-                name: "404 Error",
-                href: "/error",
-                has_children: false,
-            }
         ]
     }
 ]

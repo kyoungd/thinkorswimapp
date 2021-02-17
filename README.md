@@ -1,7 +1,14 @@
-# heroku release
+# heroku deployment
 
-Create a heroku app.
-deploy/[Deployment Method] - select github
+1.  Create a heroku app.
+2.  select Settings/[Add Buildpack] - https://github.com/mars/create-react-app-buildpack
+3.  deploy/[Deployment Method] - select github
+4.  build
+5.  \_redirects file. do not forget
+
+https://www.youtube.com/watch?v=dn4mmfbletg&t=120s (video)
+
+https://github.com/mars/create-react-app-buildpack (build pack)
 
 # original readme
 
